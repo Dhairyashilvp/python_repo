@@ -1,3 +1,4 @@
+import pafy 
 from collections import defaultdict
 d = defaultdict(list)
 # Pass the array list generated using getAllPlaylistUrl.py or multiple video URL
