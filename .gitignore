@@ -4,3 +4,4 @@
 *.cr
 .env
 *.pyc
+FaceImageScanner/
