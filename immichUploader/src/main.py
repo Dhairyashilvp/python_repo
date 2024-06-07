@@ -1,11 +1,10 @@
 # src/main.py
 import os
-from immich_handler import run_immich_command,process_folders
+from begin import Begin
 from dotenv import load_dotenv
 
 def main():
-    root_directory = "E:\\Photos"  # Example directory
-    process_folders(root_directory)
-
+    Begin.run()
+    
 if __name__ == "__main__":
     main()
