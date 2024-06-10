@@ -21,7 +21,7 @@ class Utils:
         timestamp = Utils.get_timestamp()
         with open(log_file, "a") as f:
             f.write(f"{timestamp} - {message}\n")
-        print(message)
+        # print(message)
 
     @staticmethod
     def is_folder_empty(folder, err_log):
