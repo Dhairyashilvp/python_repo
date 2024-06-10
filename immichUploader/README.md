@@ -9,38 +9,16 @@ This project processes directories and uploads their contents using the `immich`
 ## Setup
 
 1. **Clone the repository:**
-
-    ```bash
-    git clone <repository_url>
-    ```
-
+   git clone <repository_url>
 2. **Navigate to the project directory:**
-
-    ```bash
-    cd project_folder
-    ```
-
+   cd project_folder
 3. **Install dependencies:**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
+   pip install -r requirements.txt
 4. **Set environment variables:**
-
-    Create a `.env` file in the root directory with the following content:
-
-    ```plaintext
-    API_URL=http://192.168.0.1:22/api
-    TOKEN=sZvudnrv7qqBi4uH0IKPneBGMzWd2ss
-    ```
-
+   **plaintext something like**
+   API_URL=http://192.168.0.1:22/api
+   TOKEN=sZvudnrv7qqBi4uH0IKPneBGMzWd2ss
 5. **Run the project:**
-
-    ```bash
-    python src/main.py
-    ```
-
+   python src/main.py
 6. **Verify output:**
-
-    Check the `log` directory inside the `src` folder for log files containing the output of the script.
+   Check the `log` directory inside the `src` folder for log files containing the output of the script.

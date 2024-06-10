@@ -41,3 +41,14 @@ class Utils:
         except FileNotFoundError as fnf_error:
             Utils.log_message(f"Error occurred during logout-FileNotFoundError: {fnf_error}", err_log)
             exit()
+    @staticmethod
+    def any_file_recent(folder_path, files, threshold_time, err_log):
+        for file_name in files:
+            file_path = os.path.join(folder_path, file_name)
+            try:
+                file_mod_time = os.path.getmtime(file_path)
+                if file_mod_time >= threshold_time:
+                    return True
+            except Exception as e:
+                Utils.log_message(f"Error checking file time: {e}", err_log)
+        return False
