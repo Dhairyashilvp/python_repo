@@ -1,7 +1,6 @@
 # src/immich_handler.py
 import os
 import subprocess
-import shutil
 import time
 from tqdm import tqdm
 from utils import Utils

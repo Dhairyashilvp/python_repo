@@ -1,7 +1,6 @@
 # src/utils.py
 import os
 import datetime
-import subprocess
 import shutil
 from tqdm import tqdm
 
